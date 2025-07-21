@@ -11,19 +11,19 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @Configuration
 @EnableAspectJAutoProxy
 public class AppConfig {
-  @Bean
-  public Member member(){
-    return new Member("so-DDong",23);
-  }
+//  @Bean
+//  public Member member(){
+//    return new Member("so-DDong",23);
+//  }
 
-  @Bean
-  @ConfigurationProperties("spring.datasource.hikari")
-  public HikariConfig hikariConfig(){
-    return new HikariConfig();
-  }
-
-  @Bean
-  public HikariDataSource hikariDataSource(){
-    return new HikariDataSource(hikariConfig());
-  }
+//  @Bean
+//  @ConfigurationProperties("spring.datasource.hikari")
+//  public HikariConfig hikariConfig(){
+//    return new HikariConfig();
+//  }
+//
+//  @Bean
+//  public HikariDataSource hikariDataSource(){
+//    return new HikariDataSource(hikariConfig());
+//  }
 }

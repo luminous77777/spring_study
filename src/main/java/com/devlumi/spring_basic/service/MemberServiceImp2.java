@@ -7,9 +7,6 @@ import org.springframework.stereotype.Service;
 @Service("mem2")
 public class MemberServiceImp2 implements MemberService{
 
-  @Autowired
-  private Member member;
-
   @Override
   public void register(Member member) {
 
