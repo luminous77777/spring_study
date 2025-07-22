@@ -37,4 +37,4 @@ out/
 .vscode/
 src/main/resources/secret/aws_s3.properties
 src/main/resources/secret/db.yml
-
+src/main/resources/secret/
